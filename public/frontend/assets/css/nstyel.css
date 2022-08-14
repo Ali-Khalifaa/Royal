@@ -1,0 +1,56 @@
+.single-service-wrap:hover{
+    background: #60c2ce;
+}
+
+
+h3 {
+    font-size: 32px;
+    line-height: 1.3833333333;
+    padding-bottom: 70px;
+}
+.element.style {
+    margin-bottom: 45px;
+}
+.service-area{
+    padding-bottom: 40px;
+}
+.social-area {
+    padding: 0;
+    margin: 0;
+}
+#main-color{
+    color: #60c2ce;
+}
+#fpImg{
+    width: 100%;
+}
+#owner{
+    padding-bottom: 15px !important;
+}
+#proMan{
+    padding-top: 80px;
+}
+#padding1{
+    padding-bottom: 40px;
+}
+#padding0{
+    padding-bottom: 0;
+}
+/* 
+//#60c2ce */
+
+.nav-right-part-mobile{
+    display: none !important;
+}
+#font-fam{
+    font-family: 'hanimation';
+}
+
+.section-title.style-small h3 {
+    border-left: 0 !important;
+    display: inline-block;
+    padding-left: 18px;
+    font-size: 26px;
+    line-height: 1;
+    font-size: 26px;
+}

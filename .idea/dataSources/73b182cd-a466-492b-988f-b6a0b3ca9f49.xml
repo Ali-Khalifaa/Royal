@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - rdi_portal@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="rdi_portal">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="2xmoney"/>
+    <schema id="3" name="apperv31_fitandsingle"/>
+    <schema id="4" name="apperv31_friendsflick"/>
+    <schema id="5" name="apperv31_nexzen"/>
+    <schema id="6" name="babyology"/>
+    <schema id="7" name="blacktopstreet"/>
+    <schema id="8" name="boreapp"/>
+    <schema id="9" name="buddywaves"/>
+    <schema id="10" name="bv_player"/>
+    <schema id="11" name="casguru"/>
+    <schema id="12" name="cdcol"/>
+    <schema id="13" name="churchbunch"/>
+    <schema id="14" name="close_face"/>
+    <schema id="15" name="cogare"/>
+    <schema id="16" name="coolwall"/>
+    <schema id="17" name="cube99"/>
+    <schema id="18" name="dcpmdc"/>
+    <schema id="19" name="devunionrides"/>
+    <schema id="20" name="dhiraj_test"/>
+    <schema id="21" name="dnd_caller"/>
+    <schema id="22" name="doctorv"/>
+    <schema id="23" name="donate"/>
+    <schema id="24" name="emoji"/>
+    <schema id="25" name="evertext"/>
+    <schema id="26" name="fastfix_vegas"/>
+    <schema id="27" name="fast_fix"/>
+    <schema id="28" name="fixtheday"/>
+    <schema id="29" name="free_work_zone"/>
+    <schema id="30" name="free_work_zone_old"/>
+    <schema id="31" name="friendsflick"/>
+    <schema id="32" name="friendzone"/>
+    <schema id="33" name="gasapp"/>
+    <schema id="34" name="haymap"/>
+    <schema id="35" name="hayyakum"/>
+    <schema id="36" name="headstone"/>
+    <schema id="37" name="ilabour"/>
+    <schema id="38" name="information_schema"/>
+    <schema id="39" name="jichuang"/>
+    <schema id="40" name="kapil"/>
+    <schema id="41" name="kimiacare"/>
+    <schema id="42" name="kimia_care"/>
+    <schema id="43" name="kimia_care_new"/>
+    <schema id="44" name="kometden_komet"/>
+    <schema id="45" name="kraaji"/>
+    <schema id="46" name="latest"/>
+    <schema id="47" name="lead2list"/>
+    <schema id="48" name="lezzgotest"/>
+    <schema id="49" name="login"/>
+    <schema id="50" name="maspera"/>
+    <schema id="51" name="mysql"/>
+    <schema id="52" name="ncea"/>
+    <schema id="53" name="new_schema_free_work_zone"/>
+    <schema id="54" name="office_sold24_ru"/>
+    <schema id="55" name="partypass"/>
+    <schema id="56" name="party_pass"/>
+    <schema id="57" name="performance_schema"/>
+    <schema id="58" name="photo_filter"/>
+    <schema id="59" name="phpmyadmin"/>
+    <schema id="60" name="pocketdogz"/>
+    <schema id="61" name="politickingapp"/>
+    <schema id="62" name="poolplayer"/>
+    <schema id="63" name="pos"/>
+    <schema id="64" name="pronto"/>
+    <schema id="65" name="qaran"/>
+    <schema id="66" name="qaranapp"/>
+    <schema id="67" name="qaren"/>
+    <schema id="68" name="quila"/>
+    <schema id="69" name="sachin_demo"/>
+    <schema id="70" name="saloon"/>
+    <schema id="71" name="sam"/>
+    <schema id="72" name="screenster"/>
+    <schema id="73" name="securechat"/>
+    <schema id="74" name="seemccgi_igni770"/>
+    <schema id="75" name="seemccgi_komet"/>
+    <schema id="76" name="seemccgi_party_pass"/>
+    <schema id="77" name="sold24_ru"/>
+    <schema id="78" name="sos_panic"/>
+    <schema id="79" name="sots"/>
+    <schema id="80" name="startwithgold"/>
+    <schema id="81" name="sys"/>
+    <schema id="82" name="tameed"/>
+    <schema id="83" name="tasaheel"/>
+    <schema id="84" name="test"/>
+    <schema id="85" name="test1"/>
+    <schema id="86" name="thrive"/>
+    <schema id="87" name="travel_time"/>
+    <schema id="88" name="unionrides"/>
+    <schema id="89" name="vinod"/>
+    <schema id="90" name="vogi"/>
+    <schema id="91" name="watch_jewelry_repair"/>
+    <schema id="92" name="webapplication"/>
+    <schema id="93" name="webauth"/>
+    <schema id="94" name="wordpress"/>
+    <schema id="95" name="wordpress_test"/>
+    <schema id="96" name="wp_test"/>
+    <table id="97" parent="1" name="tbl_user"/>
+    <column id="98" parent="97" name="user_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="99" parent="97" name="first_name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="100" parent="97" name="last_name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="101" parent="97" name="email_address">
+      <mandatory>1</mandatory>
+      <data-type>tinytext|0</data-type>
+    </column>
+    <column id="102" parent="97" name="calling_code">
+      <mandatory>1</mandatory>
+      <data-type>varchar(8)|0</data-type>
+    </column>
+    <column id="103" parent="97" name="mobile_number">
+      <mandatory>1</mandatory>
+      <data-type>varchar(15)|0</data-type>
+    </column>
+    <column id="104" parent="97" name="combine_mobile">
+      <mandatory>1</mandatory>
+      <data-type>varchar(23)|0</data-type>
+    </column>
+    <column id="105" parent="97" name="password">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="106" parent="97" name="gender">
+      <mandatory>1</mandatory>
+      <data-type>enum(&apos;Male&apos;, &apos;Female&apos;)|0</data-type>
+    </column>
+    <column id="107" parent="97" name="profile_pic_url">
+      <mandatory>1</mandatory>
+      <data-type>tinytext|0</data-type>
+    </column>
+    <column id="108" parent="97" name="profile_pic_thumb_url">
+      <mandatory>1</mandatory>
+      <data-type>tinytext|0</data-type>
+    </column>
+    <column id="109" parent="97" name="course_year">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="110" parent="97" name="max_supervised_slots_per_week">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="111" parent="97" name="max_unsupervised_clinical_slots_per_week">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="112" parent="97" name="max_seminar_slots_per_week">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="113" parent="97" name="user_type">
+      <mandatory>1</mandatory>
+      <data-type>enum(&apos;Supervisor&apos;, &apos;Student&apos;)|0</data-type>
+    </column>
+    <column id="114" parent="97" name="device_type">
+      <mandatory>1</mandatory>
+      <data-type>enum(&apos;android&apos;, &apos;iphone&apos;)|0</data-type>
+    </column>
+    <column id="115" parent="97" name="device_token">
+      <mandatory>1</mandatory>
+      <data-type>text|0</data-type>
+    </column>
+    <column id="116" parent="97" name="login_status">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="117" parent="97" name="last_login_at">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="118" parent="97" name="is_deleted">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="119" parent="97" name="last_modified_date">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="120" parent="97" name="added_date">
+      <mandatory>1</mandatory>
+      <data-type>timestamp|0</data-type>
+      <default-expression>CURRENT_TIMESTAMP</default-expression>
+    </column>
+    <index id="121" parent="97" name="tbl_user_user_id_uindex">
+      <columns>user_id</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+    </index>
+    <key id="122" parent="97" name="PRIMARY">
+      <columns>user_id</columns>
+      <primary>1</primary>
+    </key>
+    <key id="123" parent="97" name="tbl_user_user_id_uindex">
+      <columns>user_id</columns>
+      <underlying-index>tbl_user_user_id_uindex</underlying-index>
+    </key>
+  </database-model>
+</dataSource>
